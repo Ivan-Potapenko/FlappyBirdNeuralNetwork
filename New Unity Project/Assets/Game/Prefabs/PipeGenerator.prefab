@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4515335218687761855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7299479011805110844}
+  - component: {fileID: 6575550477580398240}
+  m_Layer: 0
+  m_Name: PipeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7299479011805110844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515335218687761855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9591998, y: 0.5576022, z: -3.0297453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6575550477580398240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515335218687761855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352397ff5595e3d4e8c43d0ebacc8fb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainCamera: {fileID: 0}
+  _pipePrefab: {fileID: 5722666447097895484, guid: 1ba4f934c62564b41826c35776ffafb1, type: 3}
+  _spawnDistanceOfPipesFromCameraX: 4
+  _maxUpperPipeDisplacementY: 2
+  _maxDisplacementBetweenPipesY: 2
+  _starUpperPipePositionY: 5.5
+  _maxUpperPipePositionY: 9
+  _minUpperPipePositionY: 2
+  _startDistanceBetweenPipesY: 11
+  _distanceFromCameraToSpawnPipesX: 1
+  _maxPipes: 3
+  _maxDistanceBetweenPipesY: 13
+  _score: {fileID: 11400000, guid: cd3570504809e784681d142f6c532327, type: 2}
